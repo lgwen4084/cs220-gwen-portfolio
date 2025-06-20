@@ -33,16 +33,19 @@ const Projects = () => {
           <img src="images/about-me.jpeg" alt="Sunscript" class="about-img" />
         </div>
         <div class="about-right">
-          <h2>Who I Am</h2>
-          <p>
-            I’m Rubens, the developer behind Sunscript. My journey into tech started through acoustical engineering, where I learned the power of precision and analysis. Later, I transitioned into full-stack development, blending creativity and problem-solving into digital products.
-          </p>
-          <p>
-            I bring two years of experience building responsive, accessible, and modern interfaces for the web, alongside back-end logic and API integration. I'm passionate about both front-end aesthetics and robust software architecture.
-          </p>
-          <p>
-            Whether it's developing a custom CMS, designing data pipelines, or building engaging user experiences, I deliver clean code and thoughtful design.
-          </p>
+        <h2>Who I Am</h2>
+        <p> I’m Gwen, the developer behind Sunscript, with roots as a front-end engineer and two years of full-stack experience.
+          I specialize in crafting responsive web interfaces and reliable back-end systems, blending intuitive design with solid architecture.
+          Whether it’s a custom CMS, API-driven app, or data pipeline, I deliver clean code and seamless user experiences for small and medium-sized businesses. </p>
+
+
+
+
+
+
+
+
+
         </div>
       </div>
     </section>
@@ -51,23 +54,24 @@ const Projects = () => {
     <section class="mission-section">
       <h2>My Mission</h2>
       <p>
-        To build inclusive, meaningful software that solves real-world problems and helps people live better, more connected lives.
+      My mission is to empower small and medium-sized businesses with dynamic web and app experiences—seamless transitions,
+      intuitive design, and rock-solid performance; so they can engage users and drive real growth.
       </p>
       <div class="values-list">
-        <div class="value-item">
-          <h3>Creativity</h3>
-          <p>Turning ideas into sleek, interactive interfaces and bold designs.</p>
-        </div>
-        <div class="value-item">
-          <h3>Precision</h3>
-          <p>Code that’s clean, scalable, and engineered for long-term use.</p>
-        </div>
-        <div class="value-item">
-          <h3>Growth</h3>
-          <p>Constantly learning, exploring new tech, and evolving my craft.</p>
-        </div>
-      </div>
-    </section>
+    <div class="value-item">
+      <h3>Scalability</h3>
+      <p>Architecting front-end and back-end components that grow seamlessly under load.</p>
+    </div>
+    <div class="value-item">
+      <h3>Security</h3>
+      <p>Enforcing secure coding, encrypted data flows, and robust authentication methods.</p>
+    </div>
+    <div class="value-item">
+      <h3>Automation</h3>
+      <p>Streamlining builds, deployments, and testing with CI/CD pipelines and Infrastructure as Code.</p>
+    </div>
+  </div>
+</section>
 
     {/* Technologies Section */}
     <section class="skills-section">
@@ -93,15 +97,14 @@ const Projects = () => {
       <div class="skills-right">
         <h3>Engineering Meets Design</h3>
         <p>
-          With a unique background in acoustics and software, I approach projects holistically—balancing usability, performance, and design fidelity.
-        </p>
+          With a foundation in interface design and server logic, I strike the right balance between form, function, and efficiency.        </p>
       </div>
     </section>
 
     {/* Contact Section */}
     <section class="contact-section">
       <h2>Want to Work Together?</h2>
-      <p class="contact-email">sunscript@mail.com</p>
+      <p class="contact-email">sunscript@gmail.com</p>
       <a href="contact.html" class="btn-secondary">Let's Talk</a>
     </section>
   </main>
